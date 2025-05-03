@@ -19,9 +19,19 @@ h6 {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -52,4 +62,35 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   border: blueviolet;
+}
+
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 43px;
+  }
+
+  .hero {
+    padding: 70px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
